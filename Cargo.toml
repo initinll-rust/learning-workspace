@@ -1,0 +1,16 @@
+[workspace]
+members = [
+    "bin_adder",
+    "lib_add_one",
+    "lib_add_two",
+    "lib_common"
+]
+
+[workspace.package]
+version = "1.0.0"
+authors = ["initinll"]
+description = "A short description of my package"
+documentation = "https://example.com/bar"
+
+[workspace.dependencies]
+rand = "0.8.5"
